@@ -151,12 +151,10 @@ nav a:hover::before{
 }
 
 
-#banner {
-	width: 100%;
-	width: 500px;
-	position: static;
-	top: 100px;
-	background: #2196F3;
+#slider {
+	background: #222;
+	height: 640px;
+	width: 1366px;
 }
 
 #content {
