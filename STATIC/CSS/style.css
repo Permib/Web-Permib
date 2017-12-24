@@ -1,0 +1,236 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+@font-face{
+	font-family: Ubuntu;
+	src: url(./font/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+@font-face{
+	font-family: Roboto;
+	src: url(./font/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face{
+	font-family: Open-Sans;
+	src: url(./font/Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face{
+	font-family: Noto-Sans;
+	src: url(./font/Noto_Sans/NotoSans-Regular.ttf);
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1px;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q{
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	margin: 0px;
+	font-family: Ubuntu, sans-serif; 
+}
+
+body {
+	text-align: center;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	height: 80px;
+	width: 100%;
+	font-size: 40px;
+	text-align: left;
+	background-color: #1976D2;
+	z-index: 10;
+	position: fixed;
+}
+
+#headerlogo{
+	margin-left: 250px;
+	margin-bottom: 20px;
+}
+
+header::after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+nav {
+	font-family: Roboto;
+	font-size: 16px;
+	float: right;
+	padding-right: 50px;
+}
+
+nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 50px;
+	padding-top: 40px;
+	position: relative;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav a:hover{
+	color: #000;
+}
+
+nav a::before{
+	content: '';
+	display: block;
+	height: 2px;
+	background-color: #444;
+
+	position: absolute;
+	top: 0;
+	width: 0%;
+
+	transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+	width: 100%;
+}
+
+
+#banner {
+	width: 100%;
+	width: 500px;
+	position: static;
+	top: 100px;
+	background: #2196F3;
+}
+
+#content {
+	width: 100%;
+	position: static;
+	top: 400px;
+	background: #ebebeb;
+	height: 1500px;
+}
+
+footer {
+	width: 100%;
+	height: 150px;
+	background-color: #3F51B5;
+	margin-top: 500px;
+	position: absolute;
+}
+
+footer h1 {
+	color: #fff;
+	margin: 20px;
+	font-family: Noto-Sans;
+	padding-left: 200px;
+}
+
+#foot{
+	height: 100%;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+div .visitus{
+	float: left;
+	margin-top: 10px;
+}
+
+.youtube {
+	padding-left: 150px;
+}
+
+.instagram {
+	margin-left: 20px;
+}
+
+.twitter {
+	margin-left: 20px
+}
+
+.rectangle1 {
+	width: 1px;
+	height: 50px;
+	background: #fff;
+	position: absolute;
+	left: 500px;
+	top: 60px;
+}
+
+.rectangle2 {
+	width: 1px;
+	height: 50px;
+	background: #fff;
+	position: absolute;
+	left: 800px;
+	top: 60px;
+}
+
+footer h2 {
+	color: #fff;
+	padding-top: 35px;
+	padding-right: 450px;
+	font-family: Noto-Sans, sans-serif;
+}
+
+footer h3 {
+	color: #fff;
+	padding-left: 550px;
+}
