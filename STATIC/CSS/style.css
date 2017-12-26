@@ -303,3 +303,15 @@ footer h3 {
 	text-align: left;
 	background-color: white;
 }
+
+#content .Headline img{
+	padding: 25px;
+	margin-top: 80px;
+}
+
+#content .IsiBlog p{
+	padding: 20px;
+	margin: 10;
+	line-height: 20px;
+	text-align: left;
+}
