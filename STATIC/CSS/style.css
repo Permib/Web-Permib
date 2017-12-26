@@ -315,3 +315,10 @@ footer h3 {
 	line-height: 20px;
 	text-align: left;
 }
+
+#content .IsiAcara p{
+	padding: 20px;
+	margin: 10;
+	line-height: 20px;
+	text-align: left;	
+}
