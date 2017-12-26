@@ -268,3 +268,38 @@ footer h3 {
 	margin-top: 10px;
 	margin-right: 600px;
 }
+
+.visit {
+	width: 
+}
+
+#content .Visi h1 {
+	padding: 25px;
+	margin-top: 80px;
+	margin-left: -1150px;
+	font-size: 33px;
+	color: #1976D2;
+}
+
+#content .IsiVisi p {
+	padding: 20px;
+	margin: 10;
+	line-height: 18px;
+	text-align: left;
+	background-color: white;
+}
+
+#content .Misi h1{
+	padding: 25px;
+	margin-left: -1150px;
+	font-size: 33px;
+	color: #1976D2;
+}
+
+#content .IsiMisi p{
+	padding: 20px;
+	margin: 10;
+	line-height: 40px;
+	text-align: left;
+	background-color: white;
+}
