@@ -272,6 +272,7 @@ footer h3 {
 	margin-right: 600px;
 }
 
+<<<<<<< HEAD
 #content .Visi {
 	padding: 10px;
 	margin-top: 100px;
@@ -282,3 +283,58 @@ footer h3 {
 
 
 
+=======
+.visit {
+	width: 
+}
+
+#content .Visi h1 {
+	padding: 25px;
+	margin-top: 80px;
+	margin-left: -1150px;
+	font-size: 33px;
+	color: #1976D2;
+}
+
+#content .IsiVisi p {
+	padding: 20px;
+	margin: 10;
+	line-height: 18px;
+	text-align: left;
+	background-color: white;
+}
+
+#content .Misi h1{
+	padding: 25px;
+	margin-left: -1150px;
+	font-size: 33px;
+	color: #1976D2;
+}
+
+#content .IsiMisi p{
+	padding: 20px;
+	margin: 10;
+	line-height: 40px;
+	text-align: left;
+	background-color: white;
+}
+
+#content .Headline img{
+	padding: 25px;
+	margin-top: 80px;
+}
+
+#content .IsiBlog p{
+	padding: 20px;
+	margin: 10;
+	line-height: 20px;
+	text-align: left;
+}
+
+#content .IsiAcara p{
+	padding: 20px;
+	margin: 10;
+	line-height: 20px;
+	text-align: left;	
+}
+>>>>>>> aec4a5a53b5ff06a6eea8ad23d273efc180b996b
