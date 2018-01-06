@@ -272,18 +272,13 @@ footer h3 {
 	margin-right: 600px;
 }
 
-<<<<<<< HEAD
+
 #content .Visi {
 	padding: 10px;
 	margin-top: 100px;
 
 }
 
-
-
-
-
-=======
 .visit {
 	width: 
 }
@@ -336,5 +331,73 @@ footer h3 {
 	margin: 10;
 	line-height: 20px;
 	text-align: left;	
+}
+
+#content .judul h1{
+	padding: 25px;
+	margin-top: 130px;
+	font-size: 48px;
+}
+
+#content .square1{
+	padding: 20px;
+	height: 250px;
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+}
+
+#content .square1 .gambar1{
+	padding: 10px;
+	margin-left: 0px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#content .square1 .gambar2{
+	padding: 10px;
+	margin-left: 75px;
+	margin-right: 75px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#content .square1 .gambar3{
+	padding: 10px;
+	margin-right: 0px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#content .square2{
+	padding: 20px;
+	height: 250px;
+	width: 950px;
+	margin-top: 110px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content .square2 .gambar1{
+	padding: 10px;
+	margin-left: 0px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#content .square2 .gambar2{
+	padding: 10px;
+	margin-left: 75px;
+	margin-right: 75px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#content .square2 .gambar3{
+	padding: 10px;
+	margin-right: 0px;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 >>>>>>> aec4a5a53b5ff06a6eea8ad23d273efc180b996b
