@@ -89,7 +89,7 @@ header {
 	text-align: left;
 	background-color: #1976D2;
 	z-index: 10;
-	position: fixed;
+	position: static;
 }
 
 #headerlogo{
@@ -160,13 +160,7 @@ nav a:hover::before{
     margin: 0 auto;
 }
 
-#content {
-	width: 100%;
-	position: static;
-	top: 400px;
-	background: #ebebeb;
-	height: 1500px;
-}
+
 
 footer {
 	width: 100%;
@@ -272,18 +266,11 @@ footer h3 {
 	margin-right: 600px;
 }
 
-<<<<<<< HEAD
 #content .Visi {
 	padding: 10px;
 	margin-top: 100px;
-
 }
 
-
-
-
-
-=======
 .visit {
 	width: 
 }
@@ -337,4 +324,167 @@ footer h3 {
 	line-height: 20px;
 	text-align: left;	
 }
->>>>>>> aec4a5a53b5ff06a6eea8ad23d273efc180b996b
+
+.batasSlider{
+	padding: 5px;
+	background: #1976D2; 
+}
+
+#timeline{
+	padding: 100px;
+}
+ 	
+.judultl{
+	padding: 30px;
+	font-family: Arial;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.kotakevent {
+	height: 80px;
+	width: 160px;
+	background: #4FC3F7;
+	margin-bottom: 20px;
+	position: absolute;
+	left: 63px;
+	top: 950px;
+}
+
+#timeline .kotakevent p {
+	line-height: 30px;
+	text-align: center;
+	font-family: Noto-Sans;
+	font-size: 27px;
+	color: white;
+	padding-top: 8px;		
+}
+
+.garistanggal {
+	height: 6px;
+	width: 280px;
+	background: #4FC3F7;
+	position: absolute;
+	left: 280px;
+	top: 985px;
+}
+
+.garistanggal2 {
+	height: 6px;
+	width: 210px;
+	background: #4FC3F7;
+	position: absolute;
+	left: 630px;
+	top: 985px;
+}
+
+.garistanggal3 {
+	height: 6px;
+	width: 210px;
+	background: #4FC3F7;
+	position: absolute;
+	left: 910px;
+	top: 985px;
+}
+
+.bulettanggal {
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
+	background: #4FC3F7;
+	position: absolute;
+	left: 570px;
+	top: 962px;
+}
+
+.bulettanggal2 {
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
+	background: #4FC3F7;
+	position: absolute;
+	left: 850px;
+	top: 963px;
+}
+
+.bulettanggal3 {
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
+	background: #4FC3F7;
+	position: absolute;
+	left: 1130px;
+	top: 963px;
+}
+
+.bulettanggal p,.bulettanggal2 p,.bulettanggal3 p {
+	color: #fff;
+	line-height: 20px;
+	text-align: center;
+	font-size: 17px;
+	padding-top: 5px;
+}
+
+.penjelevent {
+	height: 85px;
+	width: 182px;
+	background: #4FC3F7;
+	position: relative;
+	left: 400px;
+	top: -45px;
+}
+
+.penjelevent2 {
+	height: 85px;
+	width: 182px;
+	background: #4FC3F7;
+	position: relative;
+	left: 685px;
+	top: 65px;
+}
+
+.penjelevent3 {
+	height: 85px;
+	width: 182px;
+	background: #4FC3F7;
+	position: relative;
+	left: 960px;
+	top: -215px;
+}
+
+h1.tgl {
+	font-family: Ubuntu;
+	color: #fff;
+	font-size: 16px;
+	padding-top: 15px;
+}
+
+p.penjelas {
+	font-family: Ubuntu;
+	font-size: 16px;
+	color: #fff;
+	line-height: 15px;
+	padding-top: 25px;
+}
+
+.tlreadmore {
+	height: 35px;
+	width: 180px;
+	background: #4FC3F7;
+	position: absolute;
+	left: 1100px;
+	top: 1190px;
+}
+
+h1.tlread {
+	font-family: Ubuntu;
+	font-size: 18px;
+	color: #fff;
+	padding-top: 15px;
+	padding-right: 20px;
+}
+
+
+
+
+
