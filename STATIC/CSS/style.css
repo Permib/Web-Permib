@@ -174,6 +174,7 @@ footer h1 {
 	font-size: 20px;
 	margin: 15px;
 	font-family: Noto-Sans;
+	font-weight: bold;
 	padding-left: 150px;
 }
 
@@ -240,6 +241,7 @@ div .visitus{
 	color: #fff;
 	font-size: 20px;
 	font-family: Open-Sans, sans-serif;
+	font-weight: bold;
 	padding-right: 380px;
 	padding-top: 25px;
 }
@@ -259,6 +261,7 @@ div .visitus{
 	font-family: open-sans, sans-serif;
 	margin-top: -95px;
 	padding-left: 0px;
+	font-weight: bold;
 	
 }
 
@@ -545,7 +548,7 @@ p.line {
 	background: #4FC3F7;
 	position: relative;
 	left: 400px;
-	top: -65px;
+	top: -75px;
 }
 
 .penjelevent2 {
@@ -554,7 +557,7 @@ p.line {
 	background: #4FC3F7;
 	position: relative;
 	left: 685px;
-	top: 40px;
+	top: 15px;
 }
 
 .penjelevent3 {
@@ -563,7 +566,7 @@ p.line {
 	background: #4FC3F7;
 	position: relative;
 	left: 960px;
-	top: -235px;
+	top: -245px;
 }
 
 h1.tgl {
@@ -577,8 +580,8 @@ p.penjelas {
 	font-family: Ubuntu;
 	font-size: 16px;
 	color: #fff;
-	line-height: 15px;
-	padding-top: 25px;
+	padding-top: 10px;
+	line-height: 20px;
 }
 
 .tlreadmore {
@@ -594,7 +597,7 @@ h1.tlread {
 	font-family: Ubuntu;
 	font-size: 18px;
 	color: #fff;
-	padding-top: 15px;
+	padding-top: 10px;
 	padding-right: 20px;
 }
 
@@ -661,6 +664,62 @@ h1.tlread {
 	background: #004A94;
 }
 
-.blogpad {
-	padding: 200px;
+#blogpad {
+	padding: 500px;
+}
+
+.judulblog {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 48px;
+	margin-top: 50px;
+	padding: 50px;
+}
+
+#blogtgl {
+	background-size: 100%
+}
+
+.ktglblog {
+	width: 100px;
+	height: 100px;
+	background: #4F4F4F;
+	background-size: 100%;
+	float: left;
+	font-family: Ubuntu;
+	position: absolute;
+	left: 135px;
+	top: 1550px;
+}
+
+.ktglblog2 {
+	width: 100px;
+	height: 100px;
+	background: #4F4F4F;
+	background-size: 100%;
+	float: left;
+	font-family: Ubuntu;
+	position: absolute;
+	left: 135px;
+	top: 1790px;
+}
+
+.ktglblog3 {
+	width: 100px;
+	height: 100px;
+	background: #4F4F4F;
+	background-size: 100%;
+	float: left;
+	font-family: Ubuntu;
+	position: absolute;
+	left: 135px;
+	top: 2030px;
+}
+
+.ktglblog p,.ktglblog2 p,.ktglblog3 p {
+	font-family: Ubuntu;
+	font-size: 30px;
+	color: #fff;
+	padding: 20px;
+	line-height: 30px;
 }
