@@ -46,7 +46,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-	line-height: 1px;
+	line-height: 15px;
 }
 
 ol, ul {
@@ -164,17 +164,34 @@ nav a:hover::before{
 
 footer {
 	width: 100%;
-	height: 125px;
-	background-color: #3F51B5;
+	height: 150px;
+	background-color: #1E88E5;
 	position: absolute;
 }
 
 footer h1 {
 	color: #fff;
-	margin: 20px;
+	font-size: 20px;
+	margin: 15px;
 	font-family: Noto-Sans;
-	padding-left: 220px;
+	padding-left: 150px;
 }
+
+footer p {
+	color: #fff;
+	margin: 15px;
+	font-family: Noto-Sans;
+	padding-top: 10px;
+}
+
+footer p.creator{
+	color: #fff;
+	margin: 10px;
+	font-family: Noto-Sans;
+	padding-left: 150px;
+	padding-top: 10px;
+}
+
 
 #foot{
 	height: 100%;
@@ -188,7 +205,7 @@ div .visitus{
 }
 
 .youtube {
-	padding-left: 220px;
+	padding-left: 150px;
 	width: 58.81px; 
 	height: 59.99px;
 }
@@ -206,8 +223,8 @@ div .visitus{
 	height: 50px;
 	background: #fff;
 	position: absolute;
-	left: 500px;
-	top: 60px;
+	left: 510px;
+	top: 45px;
 }
 
 .rectangle2 {
@@ -215,56 +232,50 @@ div .visitus{
 	height: 50px;
 	background: #fff;
 	position: absolute;
-	left: 800px;
-	top: 60px;
+	left: 880px;
+	top: 45px;
 }
 
-footer h2 {
+.Address h2 {
 	color: #fff;
-	padding-top: 35px;
-	padding-right: 450px;
-	font-family: Noto-Sans, sans-serif;
-}
-
-footer h3 {
-	color: #fff;
-	font-family: Noto-Sans, sans-serif;
-	padding-left: 550px;
-	margin-top: -60px;
+	font-size: 20px;
+	font-family: Open-Sans, sans-serif;
+	padding-right: 380px;
+	padding-top: 25px;
 }
 
 .alamat {
 	color: #fff;
-	font-size: 14px;
+	font-size: 16px;
+	line-height: 25px;
 	font-family: Open-Sans, sans-serif;
-	line-height: 15px;
-	padding-right: 420px;
-	padding-top: 30px;
+	padding-right: 370px;
+	margin-top: -10px;
 }
 
-.line {
+.Contact h3 {
 	color: #fff;
-	font-size: 14px;
+	font-size: 20px;
+	font-family: open-sans, sans-serif;
+	margin-top: -95px;
+	padding-left: 0px;
+	
+}
+
+p.line {
+	color: #fff;
+	font-size: 16px;
 	font-family: Open-Sans, sans-serif;
-	padding-left: 550px;
-	margin-top: 35px;
+	margin-top: 8px;
 }
 
 .emailPermib {
 	color: #fff;
-	font-size: 14px;
+	font-size: 16px;
 	font-family: Open-Sans, sans-serif;
-	padding-left: 550px;
-	padding-top: 20px;
+	margin-top: -13px;
 }
 
-#creator {
-	color: #fff;
-	font-size: 14px;
-	font-family: Open-Sans, sans-serif;
-	margin-top: 10px;
-	margin-right: 600px;
-}
 
 #content .tentang h1{
 	padding: 10px;
@@ -278,9 +289,8 @@ footer h3 {
 	background-color: #4FC3F7;
 }
 
-
 .visit {
-	width: 
+	width: ;
 }
 
 #content .Visi h1 {
@@ -423,10 +433,10 @@ footer h3 {
 	margin-bottom: auto;
 }
 
-<<<<<<< HEAD
  	
 .judultl{
-	padding: 30px;
+	padding: 50px;
+	margin-top: 50px;
 	font-family: Arial;
 	font-size: 48px;
 	font-weight: bold;
@@ -438,8 +448,8 @@ footer h3 {
 	background: #4FC3F7;
 	margin-bottom: 20px;
 	position: absolute;
-	left: 63px;
-	top: 950px;
+	left: 65px;
+	top: 963px;
 }
 
 #timeline .kotakevent p {
@@ -457,7 +467,7 @@ footer h3 {
 	background: #4FC3F7;
 	position: absolute;
 	left: 280px;
-	top: 985px;
+	top: 1000px;
 }
 
 .garistanggal2 {
@@ -466,7 +476,7 @@ footer h3 {
 	background: #4FC3F7;
 	position: absolute;
 	left: 630px;
-	top: 985px;
+	top: 1000px;
 }
 
 .garistanggal3 {
@@ -475,7 +485,7 @@ footer h3 {
 	background: #4FC3F7;
 	position: absolute;
 	left: 910px;
-	top: 985px;
+	top: 1000px;
 }
 
 .bulettanggal {
@@ -485,7 +495,7 @@ footer h3 {
 	background: #4FC3F7;
 	position: absolute;
 	left: 570px;
-	top: 962px;
+	top: 978px;
 }
 
 .bulettanggal2 {
@@ -495,7 +505,7 @@ footer h3 {
 	background: #4FC3F7;
 	position: absolute;
 	left: 850px;
-	top: 963px;
+	top: 978px;
 }
 
 .bulettanggal3 {
@@ -505,7 +515,7 @@ footer h3 {
 	background: #4FC3F7;
 	position: absolute;
 	left: 1130px;
-	top: 963px;
+	top: 978px;
 }
 
 .bulettanggal p,.bulettanggal2 p,.bulettanggal3 p {
@@ -522,7 +532,7 @@ footer h3 {
 	background: #4FC3F7;
 	position: relative;
 	left: 400px;
-	top: -45px;
+	top: -65px;
 }
 
 .penjelevent2 {
@@ -531,7 +541,7 @@ footer h3 {
 	background: #4FC3F7;
 	position: relative;
 	left: 685px;
-	top: 65px;
+	top: 40px;
 }
 
 .penjelevent3 {
@@ -540,7 +550,7 @@ footer h3 {
 	background: #4FC3F7;
 	position: relative;
 	left: 960px;
-	top: -215px;
+	top: -235px;
 }
 
 h1.tgl {
@@ -564,7 +574,7 @@ p.penjelas {
 	background: #4FC3F7;
 	position: absolute;
 	left: 1100px;
-	top: 1190px;
+	top: 1210px;
 }
 
 h1.tlread {
@@ -575,11 +585,11 @@ h1.tlread {
 	padding-right: 20px;
 }
 
+.batasblog {
+	padding: 10px;
+	background: #004A94;
+}
 
-
-
-
-
-
-=======
->>>>>>> e65fa3c365c1cc84094cd5b078c1d0a85432d7d4
+.blogpad {
+	padding: 200px;
+}
