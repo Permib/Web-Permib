@@ -89,11 +89,16 @@ header {
 	text-align: left;
 	background-color: #1976D2;
 	z-index: 10;
-	position: static;
+	position: fixed;
+}
+
+.batasheader {
+	padding: 45px;
+	background: #004A94;
 }
 
 #headerlogo{
-	margin-left: 250px;
+	margin-left: 50px;
 	margin-bottom: 20px;
 }
 
@@ -105,7 +110,7 @@ header::after{
 
 nav {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 20px;
 	float: right;
 	padding-right: 50px;
 }
@@ -119,7 +124,7 @@ nav ul {
 nav li {
 	display: inline-block;
 	margin-left: 50px;
-	padding-top: 40px;
+	padding-top: 35px;
 	position: relative;
 }
 
@@ -379,6 +384,7 @@ p.line {
 
 #timeline{
 	padding: 100px;
+	background-image: url(D:/Proyek/PDT/Website%20Permib/Codingan/Web-Permib/STATIC/CSS/image/patternpermib.png);
 }
 
 #content .judul h1{
@@ -494,6 +500,7 @@ p.line {
 	font-family: Arial;
 	font-size: 48px;
 	font-weight: bold;
+	background-image: url(D:/Proyek/PDT/Website%20Permib/Codingan/Web-Permib/STATIC/CSS/image/patternpermib.png);
 }
 
 .kotakevent {
@@ -704,6 +711,7 @@ h1.tlread {
 
 #blogpad {
 	padding: 400px;
+	background-image: url(D:/Proyek/PDT/Website%20Permib/Codingan/Web-Permib/STATIC/CSS/image/patternpermib.png);
 }
 
 .judulblog {
@@ -712,6 +720,7 @@ h1.tlread {
 	font-size: 48px;
 	margin-top: 50px;
 	padding: 50px;
+	background-image: url(D:/Proyek/PDT/Website%20Permib/Codingan/Web-Permib/STATIC/CSS/image/patternpermib.png);
 }
 
 #blogtgl {
@@ -799,6 +808,7 @@ h1.tlread {
 
 #documpad {
 	padding: 30px;
+	background-image: url(D:/Proyek/PDT/Website%20Permib/Codingan/Web-Permib/STATIC/CSS/image/patternpermib.png);
 }
 
 .juduldocum {
@@ -807,6 +817,7 @@ h1.tlread {
 	font-size: 48px;
 	margin-top: 50px;
 	padding: 50px;
+	background-image: url(D:/Proyek/PDT/Website%20Permib/Codingan/Web-Permib/STATIC/CSS/image/patternpermib.png);
 }
 
 .framedocum {
@@ -872,6 +883,3 @@ h1.tlread {
 
 }
 
-/* Codingan..... */
-
-/*  */
