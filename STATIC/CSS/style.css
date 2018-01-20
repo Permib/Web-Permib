@@ -298,14 +298,6 @@ p.line {
 	font-size: 35px;
 }
 
-.judultentang {
-	padding: 50px;
-	margin-top: 50px;
-	font-family: Arial;
-	font-size: 48px;	
-	font-weight: bold;
-}
-
 /*--------Codingan Tentang Permib--------*/
 #kontenTPermib {
 
@@ -353,6 +345,75 @@ p.line {
 	color: white;
 }
 
+.judultentang {
+	padding: 50px;
+	margin-top: 50px;
+	font-family: Arial;
+	font-size: 48px;	
+	font-weight: bold;
+	background-image: url(D:/Proyek/PDT/Website%20Permib/Codingan/Web-Permib/STATIC/CSS/image/patternpermib.png); 
+}
+
+.jdlpengPermib {
+	padding: 50px;
+	margin-top: 50px;
+	font-family: Arial;
+	font-size: 48px;
+	font-weight: bold;
+	background-image: url(D:/Proyek/PDT/Website%20Permib/Codingan/Web-Permib/STATIC/CSS/image/patternpermib.png); 
+}
+
+#padFPengurus {
+	padding: 30px;
+	background-image: url(D:/Proyek/PDT/Website%20Permib/Codingan/Web-Permib/STATIC/CSS/image/patternpermib.png);
+}
+
+.framePPermib {
+	position: relative;
+	margin: 50px 60px;
+	display: block;
+	float: left;
+	width: 286px;
+	height: 476px;
+	min-height: 250px;
+	min-width: 250px;
+	color: #fff!important; 
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	border: 3px solid #4FC3F7;
+}
+
+
+.namaPPermib {
+	position: relative;
+	margin-top: 357px;
+	height: 115px;
+	width: 280px;
+	min-height: 100px;
+	min-width: 200px;
+	background:  #4FC3F7;
+}
+
+p.nPPermib {
+	font-size: 24px;
+	font-family: Noto-Sans;
+	line-height: normal;
+	font-style: normal;
+	font-weight: normal;
+	color: #fff;
+	padding-top: 10px;
+}
+
+p.jPPermib {
+	font-size: 24px;
+	font-family: Noto-Sans;
+	line-height: normal;
+	font-style: normal;
+	font-weight: normal;
+	color: #fff;
+	padding-top: 5px;
+}
 
 /*-------------------------*/
 
@@ -648,7 +709,7 @@ h1.tlread {
 	padding-right: 20px;
 }
 
-#content .acara1{
+#content .acara1N
 	padding: 20px;
 	height: 250px;
 	width: 950px;
@@ -818,6 +879,14 @@ h1.tlread {
 	font-weight: bold;
 	font-size: 48px;
 	margin-top: 50px;
+	padding: 50px;
+	background-image: url(D:/Proyek/PDT/Website%20Permib/Codingan/Web-Permib/STATIC/CSS/image/patternpermib.png);
+}
+
+.jdlpagedocum {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 48px;
 	padding: 50px;
 	background-image: url(D:/Proyek/PDT/Website%20Permib/Codingan/Web-Permib/STATIC/CSS/image/patternpermib.png);
 }
